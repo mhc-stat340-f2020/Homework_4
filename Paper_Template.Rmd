@@ -1,0 +1,49 @@
+---
+title: "YOUR TITLE"
+author: "YOUR NAME HERE"
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Your introduction here.
+
+# Methods
+
+## Data
+
+Data collection/summaries here.
+
+```{r echo=FALSE, fig.cap="Figure Caption"}
+## echo=FALSE suppresses all the R code
+## fig.cap="Figure Caption" will give you a figure caption.
+
+```
+
+
+## Statistical Methods
+
+Description of statistical methods here. Enter mathmode in text: $y=1+x$.
+
+<!--Enter math mode-->
+$$
+y=a+bx
+$$
+
+# Results
+
+Results section here.
+
+# Discussion
+
+Discussion here.
+
+# References
+
+1. Reference 1.
+2. Reference 2.

@@ -1,0 +1,20 @@
+---
+title: "Paper 3 Assignment"
+subtitle: "STAT 340: Applied Regression"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Trashball
+
+The data set for your third paper will be based on the trashball data collected several weeks ago, from those students who turned in data. Because not all students collected data on the same variables, there are some missing values. You should decide how to deal with those, keeping in mind that these data are available on the Moodle forum for this assignment, so you have the option of following up with the data collector. You will want to investigate generalized linear mixed-effects models for these data.
+
+```{r cars}
+trashball <- read.csv("https://raw.githubusercontent.com/marievozanne/marievozanne.github.io/master/stat340_f2020/data/Trashball%20.csv")
+head(trashball)
+```
+
+
